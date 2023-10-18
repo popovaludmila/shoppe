@@ -1,0 +1,40 @@
+.products {
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+    padding-bottom: 164px;
+}
+
+.products_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 39px;
+}
+
+.title {
+    font-family: inherit;
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 43px;
+    text-transform: capitalize;
+}
+
+.link {
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #A18A68;
+    text-transform: capitalize;
+
+}
+
+.product_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+

@@ -54,7 +54,8 @@ a {
   text-decoration: none;
 }
 
-.button {
+.button,
+button {
   position: relative;
   display: inline-block;
   vertical-align: center;

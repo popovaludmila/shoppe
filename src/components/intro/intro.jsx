@@ -1,7 +1,7 @@
-import styles from "./header-intro.module.css";
+import styles from "./intro.module.css";
 import bg from "../../images/general/main_img_1.png";
 
-export const HeaderIntro = () => {
+export const Intro = () => {
   return (
     <div className={styles.slider}>
       <img
@@ -18,8 +18,8 @@ export const HeaderIntro = () => {
           View product
         </a>
       </div>
-      <p className={styles.slider_toggels}>
-        <button className={styles.slider_toggle}></button>
+      <p className={styles.slider_toggles}>
+        <button className={`${styles.slider_toggle} ${styles.active_slider}`}></button>
         <button className={styles.slider_toggle}></button>
         <button className={styles.slider_toggle}></button>
         <button className={styles.slider_toggle}></button>
