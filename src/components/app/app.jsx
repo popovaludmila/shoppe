@@ -1,18 +1,15 @@
-import { Footer } from "../footer/footer";
-import { Header } from "../header/header";
-import { Intro } from "../intro/intro";
-import { Products } from "../products/products";
+import { Route, Routes } from "react-router-dom";
+import { Layout } from "../layout/layout";
+import { HomePage } from "../../pages";
 
 export const App = () => {
   return (
     <>
-      <div className="container">
-        <Header />
-
-        <Intro />
-        <Products />
-        <Footer />
-      </div>
+     <Routes>
+      <Route path="/" element={<Layout /> }>
+        <Route index element={<HomePage />} />
+      </Route>
+     </Routes>
     </>
   );
 };
