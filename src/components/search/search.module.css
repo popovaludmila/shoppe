@@ -1,5 +1,16 @@
 .wrapper {
-    min-width: 288px;
+    position: relative;
+    padding-left: 36px;
+}
+
+.wrapper::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "|";
+    width: 1px;
+    height: 17px;
+    color: #000000;
 }
 
 .form {
@@ -12,6 +23,7 @@
 }
 
 .input {
+    min-width: 250px;
     flex-grow: 1;
     padding: 6px;
     border: none;

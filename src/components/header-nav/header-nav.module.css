@@ -1,0 +1,24 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+   
+}
+
+.menu_list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+   
+}
+
+.menu_item {
+    padding-right: 64px;
+    font-family: inherit;
+}
+.menu_item:last-child {
+    padding-right: 48px;
+}
